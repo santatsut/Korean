@@ -1,0 +1,52 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: -100;
+  background-image: url(https://wallpaperaccess.com/full/3432.jpg);
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  top: 200px;
+  left: 500px;
+  height: 70%;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+
+  justify-content: center;
+}
+
+button {
+  display: flex;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 20% 20% 5% 5%;
+  color: black;
+  background-color: rgb(210, 250, 250, 0.7);
+  border: 1px solid black;
+  width: 125px;
+  height: 60px;
+  max-width: 70%;
+  min-width: 30%;
+}
+
+.first {
+  flex: 1;
+  border-radius: 25% 0% 0% 0%;
+}
+
+.second {
+  flex: 1;
+  border-radius: 0%;
+}
+
+.third {
+  flex: 1;
+  border-radius: 0% 10% 0% 0%;
+}

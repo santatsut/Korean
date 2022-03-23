@@ -1,0 +1,15 @@
+.title {
+  text-align: center;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+
+h2 {
+  display: flex;
+  flex-flow: auto;
+  background-color: lightskyblue;
+  width: 100px;
+  height: 100px;
+}
