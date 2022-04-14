@@ -1,0 +1,22 @@
+.listOf {
+  display: grid;
+  position: inherit;
+  top: -50px;
+  right: 25px;
+  width: 700px;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(5, 150px);
+  grid-template-rows: repeat(6, 100px);
+  font-size: 50px;
+}
+
+.letters {
+  display: grid;
+  position: absolute;
+  top: 300px;
+  left: 575px;
+  grid-template-columns: repeat(5, 150px);
+  grid-template-rows: repeat(6, 100px);
+}

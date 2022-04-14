@@ -9,7 +9,7 @@
 .answerField {
   width: 200px;
   height: 50px;
-  background-color: rgba(32, 226, 233, 0);
+  background-color: rgba(175, 252, 255, 0.5);
   border: none;
   display: flex;
   position: absolute;
@@ -23,7 +23,7 @@
   display: flex;
   position: absolute;
   top: 750px;
-  right: 575px;
+  right: 500px;
   font-size: 50px;
   width: 250px;
 }
@@ -36,4 +36,25 @@
   left: 550px;
   font-size: 50px;
   width: 250px;
+}
+
+.reveal {
+  display: flex;
+  position: absolute;
+  top: 600px;
+  left: 950px;
+}
+
+.ListBtn {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  top: 275px;
+  right: 500px;
+  background-color: rgba(158, 255, 255, 0.411);
+  border: none;
 }
